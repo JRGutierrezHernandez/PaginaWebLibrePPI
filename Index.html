@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo de Poemas</title>
+    <!-- Vinculamos el CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Poemas</h1>
+    </header>
+
+    <!-- Formulario para agregar poemas -->
+    <section class="formulario">
+        <h2>Agregar un nuevo poema</h2>
+        <input type="text" id="titulo" placeholder="Título del poema">
+        <textarea id="contenido" placeholder="Escribe tu poema aquí..."></textarea>
+        <button id="btnAgregar">Agregar Poema</button>
+    </section>
+
+    <!-- Catálogo donde se mostrarán los poemas -->
+    <section class="catalogo" id="catalogo">
+        <h2>Poemas agregados</h2>
+        <!-- Aquí JS insertará las tarjetas de poemas -->
+    </section>
+
+    <!-- Vinculamos el JS externo -->
+    <script src="script.js"></script>
+</body>
+</html>

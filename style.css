@@ -1,0 +1,72 @@
+/* Fuente y estilo general */
+body {
+    font-family: Times New Roman, serif;
+    background: #f9f6f2;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background: #6c5ce7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Sección del formulario */
+.formulario {
+    text-align: center;
+    padding: 20px;
+}
+
+.formulario input{
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.formulario textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.formulario button {
+    padding: 10px 20px;
+    background: #00b894;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.formulario button:hover {
+    background: #019875;
+}
+
+/* Sección de poemas */
+.catalogo {
+    padding: 20px;
+}
+
+/* Tarjetas de poema */
+.poema {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.poema h3 {
+    margin-top: 0;
+    color: #6c5ce7;
+}
